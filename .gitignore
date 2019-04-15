@@ -25,3 +25,18 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+.DS_Store
+.bowerrc
+.env
+.git
+.gitignore
+.idea
+.vscode
+Guardfile
+README.rdoc
+database.yml
+docker-compose.yml
+docker-compose.override.yml
+gateway.conf
+public/uploads/*

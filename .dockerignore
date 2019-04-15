@@ -1,0 +1,32 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/node_modules
+/yarn-error.log
+
+/public/assets
+.byebug_history
+
+
+.DS_Store
+.bowerrc
+.dockerignore
+.env
+.git
+.gitignore
+.idea
+.vscode
+Guardfile
+README.rdoc
+database.yml
+docker-compose.yml
+docker-compose.override.yml
+gateway.conf
+public/uploads/*
